@@ -238,16 +238,16 @@ const PACKAGES = [
     id: 'elite',
     name: 'ELITE PARAGLIDING',
     duration: '15–20 min',
-    price: 2800,
-    originalPrice: 3294,
+    price: 3500,
+    originalPrice: 4000,
     features: ['Basic flight experience', 'Govt. certified experienced pilot', 'Safety equipment', 'GoPro video included', 'Insurance coverage']
   },
   {
     id: 'freespirit',
     name: 'FREESPIRIT PARAGLIDING',
     duration: '30–40 min',
-    price: 4000,
-    originalPrice: 4600,
+    price: 5000,
+    originalPrice: 5600,
     popular: true,
     features: ['Extended flight time', 'Govt. certified experienced pilot', 'Safety equipments', 'GoPro video included', 'Aerobatic maneuvers', 'Insurance coverage']
   },
@@ -255,8 +255,8 @@ const PACKAGES = [
     id: 'daredevil',
     name: 'DAREDEVIL PARAGLIDING',
     duration: '60–70 min',
-    price: 6000,
-    originalPrice: 6900,
+    price: 10000,
+    originalPrice: 12000,
     features: ['Maximum flight time', 'Govt. certified experienced pilot', 'Safety equipment included', 'GoPro video included', 'Advanced aerobatics', 'Insurance coverage', 'Souvenir certificate']
   }
 ];
@@ -740,6 +740,7 @@ class BookingWidget {
 
       .bmt-promo-input {
         display: flex;
+        align-items: stretch;
         gap: 8px;
         margin-bottom: 12px;
       }
@@ -759,10 +760,15 @@ class BookingWidget {
       }
 
       .bmt-apply-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         background: white;
         border: 1px solid rgba(17,17,17,0.12);
         border-radius: 6px;
         padding: 8px 16px;
+        min-height: 40px;
+        white-space: nowrap;
         cursor: pointer;
         font-size: 14px;
       }
