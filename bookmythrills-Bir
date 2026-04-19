@@ -1,46 +1,46 @@
 <!-- BMT 5-Tile Feature Gallery -->
 <div class="bmt-photo-feature">
   <!-- BIG image (left, spans two rows) -->
-  <a class="bmt-item bmt-big" href="https://bookmythrills.com/wp-content/uploads/2025/10/juliette-g-bmBLu_oAEj8-unsplash.jpg" data-caption="Paraglider with sunset">
-    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/juliette-g-bmBLu_oAEj8-unsplash.jpg?w=900&amp;h=600&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/juliette-g-bmBLu_oAEj8-unsplash.jpg?w=600&amp;h=400&amp;crop=1&amp;quality=85&amp;ssl=1 600w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/juliette-g-bmBLu_oAEj8-unsplash.jpg?w=900&amp;h=600&amp;crop=1&amp;quality=85&amp;ssl=1 900w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/juliette-g-bmBLu_oAEj8-unsplash.jpg?w=1200&amp;h=800&amp;crop=1&amp;quality=85&amp;ssl=1 1200w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/juliette-g-bmBLu_oAEj8-unsplash.jpg?w=1600&amp;h=1067&amp;crop=1&amp;quality=85&amp;ssl=1 1600w
-      " sizes="(max-width: 1024px) 100vw, 50vw" width="1200" height="800" alt="Paraglider landing in the mountains" loading="eager" fetchpriority="high" decoding="async">
+  <a class="bmt-item bmt-big" href="https://bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg" data-caption="Paragliding over Bir Billing">
+    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=900&amp;h=600&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=600&amp;h=400&amp;crop=1&amp;quality=85&amp;ssl=1 600w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=900&amp;h=600&amp;crop=1&amp;quality=85&amp;ssl=1 900w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=1200&amp;h=800&amp;crop=1&amp;quality=85&amp;ssl=1 1200w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=1600&amp;h=1067&amp;crop=1&amp;quality=85&amp;ssl=1 1600w
+      " sizes="(max-width: 1024px) 100vw, 50vw" width="1200" height="800" alt="Paragliding over Bir Billing" loading="eager" fetchpriority="high" decoding="async">
   </a>
 
   <!-- Four small tiles (right, 2×2) -->
-  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-bir-billing-2025.jpg" data-caption="Paragliding with the valley View">
-    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-bir-billing-2025.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-bir-billing-2025.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-bir-billing-2025.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-bir-billing-2025.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
-      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Paragliding with the valley View" loading="lazy" decoding="async">
+  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2026/04/Bir-3.jpg" data-caption="Paragliding with valley views in Bir">
+    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-3.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-3.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-3.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-3.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
+      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Paragliding with valley views in Bir" loading="lazy" decoding="async">
   </a>
 
-  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-himachal.jpg" data-caption="Sunset view while Paragliding in Dharamshala">
-    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-himachal.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-himachal.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-himachal.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/paragliding-in-himachal.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
-      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Sunset view while Paragliding in Dharamshala" loading="lazy" decoding="async">
+  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2026/04/Bir-5.jpg" data-caption="Sunset flight in Bir Billing">
+    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-5.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-5.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-5.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-5.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
+      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Sunset flight in Bir Billing" loading="lazy" decoding="async">
   </a>
 
-  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2025/08/pexels-photo-17690822.jpeg" data-caption="Dhauladhar mountains of Dharamshala">
-    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/08/pexels-photo-17690822.jpeg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/08/pexels-photo-17690822.jpeg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/08/pexels-photo-17690822.jpeg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/08/pexels-photo-17690822.jpeg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
-      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Dhauladhar mountains of Dharamshala" loading="lazy" decoding="async">
+  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2026/04/Bir-6.jpg" data-caption="Mountain views from Bir Billing">
+    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-6.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-6.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-6.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-6.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
+      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Mountain views from Bir Billing" loading="lazy" decoding="async">
   </a>
 
-  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2025/10/martina-tomatis-4ivMMoUOSwM-unsplash.jpg" data-caption="Valley View while paragliding in Dharamshala">
-    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/martina-tomatis-4ivMMoUOSwM-unsplash.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/martina-tomatis-4ivMMoUOSwM-unsplash.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/martina-tomatis-4ivMMoUOSwM-unsplash.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2025/10/martina-tomatis-4ivMMoUOSwM-unsplash.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
-      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Valley View while paragliding in Dharamshala" loading="lazy" decoding="async">
+  <a class="bmt-item" href="https://bookmythrills.com/wp-content/uploads/2026/04/Bir-7.jpg" data-caption="Valley view during paragliding in Bir">
+    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-7.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-7.jpg?w=400&amp;h=260&amp;crop=1&amp;quality=85&amp;ssl=1 400w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-7.jpg?w=500&amp;h=320&amp;crop=1&amp;quality=85&amp;ssl=1 500w,
+        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-7.jpg?w=800&amp;h=512&amp;crop=1&amp;quality=85&amp;ssl=1 800w
+      " sizes="(max-width: 1024px) 50vw, 25vw" width="800" height="512" alt="Valley view during paragliding in Bir" loading="lazy" decoding="async">
   </a>
 
 
@@ -58,7 +58,7 @@
   <a class="bmt-viewall" href="#" aria-label="Open gallery"> View All Images</a>
 </div>
 
-<!-- Paragliding in Dharamshala – Heading + Stars + Highlights (87% width, adventure-focused) -->
+<!-- Paragliding in Bir Billing – Heading + Stars + Highlights (87% width, adventure-focused) -->
 <div class="bmt-paragliding-summary" aria-labelledby="bmt-paragliding-heading">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
   <style>
@@ -180,7 +180,7 @@
 </style>
 
   <!-- Heading -->
-  <h2 id="bmt-paragliding-heading" class="bmt-heading">Paragliding in Dharamshala – A Gateway to Heaven</h2>
+  <h2 id="bmt-paragliding-heading" class="bmt-heading">Paragliding in Bir Billing – Fly Over India’s Paragliding Capital</h2>
 
   <!-- Rating Stars -->
   <div class="bmt-stars-row" role="group" aria-label="Activity rating — click to view reviews">
@@ -206,15 +206,15 @@
 
   <!-- Highlights -->
   <div class="bmt-highlights">
-    <p><strong>Fly from Indrunag:</strong> Take off from a mountain cliff and soar 5,200 ft above Dharamshala, feeling the rush of cool mountain air and pure Himalayan thrill. Enjoy 360° aerial views with certified pilots ensuring safety as you glide above Kangra Valley.</p>
+    <p><strong>Fly from Billing:</strong> Take off from the iconic Billing ridge and soar above Bir Valley, feeling the rush of cool mountain air and pure Himalayan thrill. Enjoy 360° aerial views with certified pilots ensuring safety from take-off to landing.</p>
 
-    <p><strong>What you’ll see &amp; feel:</strong> Witness breathtaking landscapes – the Pong Dam, lush tea gardens, Dhauladhar and Shivalik Himalayan ranges, and panoramic views of McLeod Ganj and Dharamshala town.</p>
+    <p><strong>What you’ll see &amp; feel:</strong> Witness breathtaking landscapes – cedar forests, tea gardens, rolling Himalayan ridges, and panoramic views of Bir village, Billing meadows, and the Kangra Valley skyline.</p>
 
     <p>Choose from Elite, Freespirit, or Daredevil flight packages – all including GoPro video recording, insurance coverage, and safety gear for an unforgettable adventure.</p>
 
     <div class="bmt-tags" aria-hidden="true">
-      <span class="bmt-tag">Paragliding in Dharamshala</span>
-      <span class="bmt-tag">Indrunag</span>
+      <span class="bmt-tag">Paragliding in Bir Billing</span>
+      <span class="bmt-tag">Billing Take-off</span>
       <span class="bmt-tag">Kangra Valley</span>
       <span class="bmt-tag">Himachal Adventure</span>
     </div>
@@ -1433,8 +1433,8 @@ class BookingWidget {
 
       const selectedPkg = PACKAGES.find(pkg => pkg.id === this.selectedPackage);
       const booking = {
-        product_name: 'Paragliding in Dharamshala',
-        source: 'paragliding-in-dharamshala-widget',
+        product_name: 'Paragliding in Bir Billing',
+        source: 'paragliding-in-bir-billing-widget',
         date: this.selectedDate,
         time: this.selectedTime,
         package_id: this.selectedPackage,
@@ -2217,7 +2217,7 @@ body {
  
   <div class="container">
    <header class="section-header">
-    <h1 class="section-title">Know Before You Go for <span class="brand-highlight">Paragliding in Dharamshala</span></h1>
+    <h1 class="section-title">Know Before You Go for <span class="brand-highlight">Paragliding in Bir Billing</span></h1>
    </header>
    <div class="tab-container">
     <div class="tab-bar"><button class="tab-button active" onclick="switchTab('must-know', this)">
@@ -2265,10 +2265,10 @@ body {
      </div>
      <div id="what-to-expect" class="tab-content">
       <ul class="content-list">
-       <li class="content-item"><span class="item-text"><span class="highlight">Short jeep ride</span> from the meeting point to Indrunag take-off site.</span></li>
+       <li class="content-item"><span class="item-text"><span class="highlight">Short jeep ride</span> from the meeting point to Billing take-off site.</span></li>
        <li class="content-item"><span class="item-text"><span class="highlight">Safety briefing and pre-flight checks</span> by your certified pilot.</span></li>
        <li class="content-item"><span class="item-text">Enjoy <span class="highlight">15–70 minutes</span> of pure freedom as you glide through the sky.</span></li>
-       <li class="content-item"><span class="item-text"><span class="highlight">Stunning aerial views</span> of Dhauladhar ranges, McLeod Ganj, and the Kangra Valley.</span></li>
+       <li class="content-item"><span class="item-text"><span class="highlight">Stunning aerial views</span> of Billing ridge, Bir valley, and the Dhauladhar ranges.</span></li>
        <li class="content-item"><span class="item-text"><span class="highlight">Smooth landing</span> at the designated site with full pilot assistance.</span></li>
        <li class="content-item"><span class="item-text">Collect your <span class="highlight">GoPro flight video and souvenir certificate</span> post-flight.</span></li>
       </ul>
@@ -2295,14 +2295,14 @@ body {
      </div>
      <div id="how-to-reach" class="tab-content">
       <div style="margin-bottom: 20px;">
-       <p style="font-size: 15px; color: #333333; font-weight: 400; line-height: 1.6; margin: 0;">The activity takes place at <span class="highlight">Indrunag, Dharamshala (Himachal Pradesh)</span> — just <span class="highlight">10 minutes from the main town</span>. The exact meeting point will be shared after your booking confirmation.</p>
+       <p style="font-size: 15px; color: #333333; font-weight: 400; line-height: 1.6; margin: 0;">The activity takes place at <span class="highlight">Bir Billing, Kangra (Himachal Pradesh)</span> — just <span class="highlight">15–20 minutes from Bir town</span>. The exact meeting point will be shared after your booking confirmation.</p>
       </div>
       <div style="margin-bottom: 24px;">
        <h3 style="font-size: 16px; font-weight: 600; color: #7445F7; margin: 0 0 12px 0; display: flex; align-items: center;">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="#7445F7" style="margin-right: 8px;"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"></path>
         </svg> By Air</h3>
        <ul class="content-list">
-        <li class="content-item"><span class="item-text"><span class="highlight">Kangra (Gaggal) Airport</span> is the nearest, just <span class="highlight">13 km / 30 min</span> from Dharamshala.</span></li>
+        <li class="content-item"><span class="item-text"><span class="highlight">Kangra (Gaggal) Airport</span> is the nearest major airport, around <span class="highlight">65–70 km / 2.5–3 hrs</span> from Bir Billing.</span></li>
         <li class="content-item"><span class="item-text"><span class="highlight">Daily flights</span> connect from Delhi, Chandigarh, and Amritsar. <span class="highlight">Cabs are easily available</span> at the airport.</span></li>
        </ul>
       </div>
@@ -2311,8 +2311,8 @@ body {
         <svg width="18" height="18" viewBox="0 0 24 24" fill="#7445F7" style="margin-right: 8px;"><path d="M4 15.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V5c0-3.5-3.58-4-8-4s-8 .5-8 4v10.5zm8 1.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6-7H6V5h12v5z"></path>
         </svg> By Train</h3>
        <ul class="content-list">
-        <li class="content-item"><span class="item-text"><span class="highlight">Amb Andaura Railway Station</span> (≈ <span class="highlight">80 km / 2 hrs</span>): Connected via <span class="highlight">Vande Bharat Express</span> from Delhi — fastest and most comfortable route.</span></li>
-        <li class="content-item"><span class="item-text"><span class="highlight">Pathankot Railway Station</span> (≈ <span class="highlight">85 km / 2.5 hrs</span>): Major junction with regular trains from Delhi, Chandigarh, and Amritsar.</span></li>
+        <li class="content-item"><span class="item-text"><span class="highlight">Pathankot Railway Station</span> (≈ <span class="highlight">140 km / 4 hrs</span>): A major railhead with regular trains from Delhi and other North Indian cities.</span></li>
+        <li class="content-item"><span class="item-text"><span class="highlight">Ahju Railway Station (Kangra Valley line)</span> (≈ <span class="highlight">3 km / 10 min</span>): The closest narrow-gauge station for local connectivity to Bir.</span></li>
        </ul>
       </div>
       <div style="margin-bottom: 24px;">
@@ -2321,9 +2321,9 @@ body {
         </svg> By Road</h3>
        <p style="font-size: 15px; color: #333333; font-weight: 400; line-height: 1.6; margin: 0 0 12px 0;"><span class="highlight">Regular Volvo and AC buses</span> operate from:</p>
        <ul class="content-list">
-        <li class="content-item"><span class="item-text"><span class="highlight">Delhi</span> (≈ <span class="highlight">480 km / 10–11 hrs</span>) – From <span class="highlight">Kashmere Gate ISBT</span></span></li>
-        <li class="content-item"><span class="item-text"><span class="highlight">Chandigarh</span> (≈ <span class="highlight">250 km / 5–6 hrs</span>) – Multiple daily options via NH503</span></li>
-        <li class="content-item"><span class="item-text">The <span class="highlight">Dharamshala Bus Stand</span> is just <span class="highlight">10–15 minutes</span> from the paragliding meeting point.</span></li>
+        <li class="content-item"><span class="item-text"><span class="highlight">Delhi</span> (≈ <span class="highlight">500 km / 11–12 hrs</span>) – Overnight Volvo buses are available towards Bir/ Baijnath route</span></li>
+        <li class="content-item"><span class="item-text"><span class="highlight">Chandigarh</span> (≈ <span class="highlight">290 km / 7–8 hrs</span>) – Road travel via Una–Palampur corridor</span></li>
+        <li class="content-item"><span class="item-text">The <span class="highlight">Bir Bus Stand</span> is just <span class="highlight">10–15 minutes</span> from the paragliding meeting point.</span></li>
        </ul>
       </div>
       <div>
@@ -2354,11 +2354,11 @@ body {
        <div class="location-header">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="#7445F7" style="margin-right: 8px;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
         </svg>
-        <h4>Take-Off Site (Indrunag)</h4>
+        <h4>Take-Off Site (Billing)</h4>
        </div><a href="https://maps.app.goo.gl/3jiCpztV4hqNuqKt9" target="_blank" rel="noopener noreferrer" class="map-link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="#7445F7" style="margin-right: 6px;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
         </svg> View on Google Maps </a>
-       <p class="location-description">Located at 1,730 meters above sea level, the Indrunag take-off site offers an incredible view of Dharamshala, McLeod Ganj, and the Himalayan ridges — one of Himachal's safest and most scenic paragliding zones.</p>
+       <p class="location-description">Located high on Billing ridge, this world-famous take-off site offers sweeping views of Bir valley, pine forests, and Himalayan ridges — one of Himachal's most scenic and trusted paragliding zones.</p>
       </div>
       <div class="location-card">
        <div class="location-header">
@@ -2376,7 +2376,7 @@ body {
         </svg>
         <h4>Getting There</h4>
        </div>
-       <p class="location-description">Both sites are accessible by road from Dharamshala main town. Book My Thrills provides commute assistance, offering transfers from the meeting point to the take-off site and return from the landing site to the meeting point. Location details and timing confirmations are shared post-booking via WhatsApp or email.</p>
+       <p class="location-description">Both sites are accessible by road from Bir main market and nearby stays. Book My Thrills provides commute assistance, offering transfers from the meeting point to the take-off site and return from the landing site to the meeting point. Location details and timing confirmations are shared post-booking via WhatsApp or email.</p>
       </div>
      </div>
     </div>
@@ -2475,9 +2475,9 @@ body {
 <!-- Overview Box -->
 <div class="bmt-ov-wrapper">
   <div class="bmt-ov-box">
-    <h2 class="bmt-ov-title">Paragliding in Dharamshala Overview</h2>
+    <h2 class="bmt-ov-title">Paragliding in Bir Billing Overview</h2>
     <p class="bmt-ov-short">
-      Soar above Dharamshala from Indrunag — experience stunning Himalayan views, smooth take-off &amp; landing, and premium certified pilot safety.
+      Soar above Bir Billing from the legendary Billing ridge — experience stunning Himalayan views, smooth take-off &amp; landing, and premium certified pilot safety.
       <span class="bmt-more" onclick="document.getElementById('bmt-ov-modal').style.display='flex'">Read More</span>
     </p>
   </div>
@@ -2490,16 +2490,16 @@ body {
   <div class="bmt-modal-content">
     <button class="bmt-close" onclick="document.getElementById('bmt-ov-modal').style.display='none'">×</button>
 
-    <h3>Complete Overview — Paragliding in Dharamshala</h3>
+    <h3>Complete Overview — Paragliding in Bir Billing</h3>
 
     <!-- Highlights -->
     <section class="bmt-section">
-      <h4>Paragliding in Dharamshala Highlights</h4>
+      <h4>Paragliding in Bir Billing Highlights</h4>
       <ul>
-        <li>Take off from Indrunag (5,200 ft) with certified pilots.</li>
+        <li>Take off from Billing with certified pilots.</li>
         <li>Experience Himalayan cold breeze &amp; clear valley views.</li>
-        <li>See Pong Dam, tea gardens, Dhauladhar &amp; Shivalik ranges.</li>
-        <li>Views of McLeod Ganj &amp; Dharamshala town.</li>
+        <li>See tea gardens, deodar forests, and Dhauladhar ranges.</li>
+        <li>Views of Bir village, landing meadows, and Kangra valley.</li>
         <li>Packages: Elite, Freespirit &amp; Daredevil.</li>
         <li>Includes GoPro footage, insurance &amp; safety gear.</li>
         <li>Instant booking, secure payments &amp; weather-flexible rescheduling.</li>
@@ -2544,7 +2544,7 @@ body {
         <li>Short jeep ride to take-off point.</li>
         <li>Safety briefing &amp; gear check.</li>
         <li>15–70 minute paragliding experience.</li>
-        <li>Views of Dhauladhar ranges, McLeod Ganj &amp; Kangra Valley.</li>
+        <li>Views of Billing ridge, Bir valley &amp; Dhauladhar ranges.</li>
         <li>Smooth landing.</li>
         <li>GoPro footage + certificate (where applicable).</li>
       </ul>
@@ -2574,25 +2574,25 @@ body {
     <!-- How to Reach -->
     <section class="bmt-section">
       <h4>How to Reach</h4>
-      <p>Location: Indrunag, Dharamshala (~10 mins from city)</p>
+      <p>Location: Bir Billing, Kangra (~15–20 mins from Bir town)</p>
 
       <p class="bmt-subhead">By Air</p>
       <ul>
-        <li>Kangra Airport — 13 km / ~30 mins.</li>
+        <li>Kangra Airport — ~65–70 km / 2.5–3 hrs.</li>
         <li>Direct flights from Delhi / Chandigarh / Amritsar.</li>
       </ul>
 
       <p class="bmt-subhead">By Train</p>
       <ul>
-        <li>Amb Andaura — 80 km (Vande Bharat)</li>
-        <li>Pathankot — 85 km</li>
+        <li>Pathankot — ~140 km (major broad-gauge railhead)</li>
+        <li>Ahju — ~3 km (nearest narrow-gauge station)</li>
       </ul>
 
       <p class="bmt-subhead">By Road</p>
       <ul>
-        <li>Delhi — ~480 km (Volvo from Kashmere Gate)</li>
-        <li>Chandigarh — ~250 km</li>
-        <li>Dharamshala Bus Stand — ~10–15 mins</li>
+        <li>Delhi — ~500 km (overnight Volvo options)</li>
+        <li>Chandigarh — ~290 km</li>
+        <li>Bir Bus Stand — ~10–15 mins</li>
       </ul>
 
       <p><strong>Local Transfers:</strong> Provided for take-off &amp; landing.</p>
