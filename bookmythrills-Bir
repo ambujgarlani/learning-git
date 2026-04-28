@@ -1,12 +1,12 @@
 <!-- BMT 5-Tile Feature Gallery -->
 <div class="bmt-photo-feature">
   <!-- BIG image (left, spans two rows) -->
-  <a class="bmt-item bmt-big" href="https://bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg" data-caption="Paragliding over Bir Billing">
-    <img src="https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=900&amp;h=600&amp;crop=1&amp;quality=85&amp;ssl=1" srcset="
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=600&amp;h=400&amp;crop=1&amp;quality=85&amp;ssl=1 600w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=900&amp;h=600&amp;crop=1&amp;quality=85&amp;ssl=1 900w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=1200&amp;h=800&amp;crop=1&amp;quality=85&amp;ssl=1 1200w,
-        https://i0.wp.com/bookmythrills.com/wp-content/uploads/2026/04/Bir-4.jpg?w=1600&amp;h=1067&amp;crop=1&amp;quality=85&amp;ssl=1 1600w
+  <a class="bmt-item bmt-big" href="https://bookmythrills.com/wp-content/uploads/2025/08/2-edited.jpg" data-caption="Paragliding over Bir Billing">
+    <img src="https://bookmythrills.com/wp-content/uploads/2025/08/2-edited.jpg" srcset="
+        https://bookmythrills.com/wp-content/uploads/2025/08/2-edited.jpg 600w,
+        https://bookmythrills.com/wp-content/uploads/2025/08/2-edited.jpg 900w,
+        https://bookmythrills.com/wp-content/uploads/2025/08/2-edited.jpg 1200w,
+        https://bookmythrills.com/wp-content/uploads/2025/08/2-edited.jpg 1600w
       " sizes="(max-width: 1024px) 100vw, 50vw" width="1200" height="800" alt="Paragliding over Bir Billing" loading="eager" fetchpriority="high" decoding="async">
   </a>
 
@@ -225,8 +225,10 @@
 <div class="bmt-app" id="bmt-booking"></div>
 
 <script>
-// CHANGE THIS: Configure your checkout URL
-const CHECKOUT_URL = '/checkout/';
+// ===== FEATURE START: Cart redirect configuration =====
+const CART_URL = '/cart/';
+const LOCATION_NAME = 'Bir Billing';
+// ===== FEATURE END: Cart redirect configuration =====
 
 // Brand colors
 const BRAND_PRIMARY = '#7445f7';
@@ -273,7 +275,6 @@ class BookingWidget {
     this.selectedTime = null;
     this.selectedPackage = null;
     this.currentMonth = new Date();
-    this.promoCode = '';
     this.personCount = 1;
     
     this.init();
@@ -662,6 +663,7 @@ class BookingWidget {
         margin-bottom: 0;
       }
 
+      /* ===== FEATURE START: Booking Summary Styles ===== */
       /* Booking Summary */
       .bmt-booking-summary {
         background: white;
@@ -732,50 +734,7 @@ class BookingWidget {
         line-height: 1.3;
       }
 
-      .bmt-promo-section {
-        margin: 20px 0;
-        padding-top: 20px;
-        border-top: 1px solid rgba(17,17,17,0.08);
-      }
 
-      .bmt-promo-input {
-        display: flex;
-        align-items: stretch;
-        gap: 8px;
-        margin-bottom: 12px;
-      }
-
-      .bmt-promo-input input {
-        flex: 1;
-        padding: 8px 12px;
-        border: 1px solid rgba(17,17,17,0.12);
-        border-radius: 6px;
-        font-size: 14px;
-      }
-
-      .bmt-promo-input input:focus {
-        outline: 2px solid ${BRAND_PRIMARY};
-        outline-offset: 2px;
-        border-color: ${BRAND_PRIMARY};
-      }
-
-      .bmt-apply-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background: white;
-        border: 1px solid rgba(17,17,17,0.12);
-        border-radius: 6px;
-        padding: 8px 16px;
-        min-height: 40px;
-        white-space: nowrap;
-        cursor: pointer;
-        font-size: 14px;
-      }
-
-      .bmt-apply-btn:hover {
-        background: #f5f5f5;
-      }
 
       .bmt-book-now-btn {
         width: 100%;
@@ -818,6 +777,8 @@ class BookingWidget {
         font-size: 14px;
         color: #28a745;
       }
+
+      /* ===== FEATURE END: Booking Summary Styles ===== */
 
       /* Features Grid */
       .bmt-features-grid {
@@ -1116,6 +1077,7 @@ class BookingWidget {
 
   getHTML() {
     return `
+      <!-- ===== FEATURE START: Main booking layout ===== -->
       <div class="bmt-booking-grid">
         <div class="bmt-steps-column">
           <!-- Date & Time Selection -->
@@ -1264,6 +1226,10 @@ class BookingWidget {
           <div class="bmt-summary-header">Booking Summary</div>
           
           <div class="bmt-summary-item">
+            <span class="bmt-summary-label">Location:</span>
+            <span class="bmt-summary-value" id="bmt-summary-location">${LOCATION_NAME}</span>
+          </div>
+          <div class="bmt-summary-item">
             <span class="bmt-summary-label">Date:</span>
             <span class="bmt-summary-value" id="bmt-summary-date">Not selected</span>
           </div>
@@ -1292,13 +1258,6 @@ class BookingWidget {
           </div>
           <div class="bmt-price-details">
             <small>Inclusive of 5% IGST, GoPro Video & Insurance</small>
-          </div>
-          
-          <div class="bmt-promo-section">
-            <div class="bmt-promo-input">
-              <input type="text" placeholder="Promo code" id="bmt-promo-input" aria-label="Enter promo code">
-              <button class="bmt-apply-btn" id="bmt-apply-promo">Apply</button>
-            </div>
           </div>
           
           <button class="bmt-book-now-btn" id="bmt-book-now" disabled>Book Now</button>
@@ -1339,10 +1298,12 @@ class BookingWidget {
           <span>Secure Payment • SSL Protected</span>
         </div>
       </div>
+      <!-- ===== FEATURE END: Main booking layout ===== -->
     `;
   }
 
   bindEvents() {
+    // ===== FEATURE START: Event bindings =====
     // Calendar navigation
     document.getElementById('bmt-prev-month').addEventListener('click', () => {
       this.currentMonth.setMonth(this.currentMonth.getMonth() - 1);
@@ -1386,15 +1347,6 @@ class BookingWidget {
       }
     });
 
-    // Promo code
-    document.getElementById('bmt-apply-promo').addEventListener('click', () => {
-      const promoInput = document.getElementById('bmt-promo-input');
-      this.promoCode = promoInput.value;
-      // Mock promo code application
-      if (this.promoCode) {
-        alert('Promo code applied! (This is a demo)');
-      }
-    });
 
     // Person selector
     document.getElementById('bmt-decrease-persons').addEventListener('click', () => {
@@ -1439,7 +1391,8 @@ class BookingWidget {
 
       const selectedPkg = PACKAGES.find(pkg => pkg.id === this.selectedPackage);
       const booking = {
-        product_name: 'Paragliding in Bir Billing',
+        product_name: `Paragliding in ${LOCATION_NAME}`,
+        location_name: LOCATION_NAME,
         source: 'paragliding-in-bir-billing-widget',
         date: this.selectedDate,
         time: this.selectedTime,
@@ -1466,7 +1419,7 @@ class BookingWidget {
         });
 
         if (resp && resp.ok) {
-          // success — redirect to checkout with booking query string (keeps UX consistent)
+          // success — redirect to cart so travelers can review and edit persons before checkout
           const qs = new URLSearchParams({
             date: booking.date,
             time: booking.time,
@@ -1475,14 +1428,14 @@ class BookingWidget {
             persons: String(booking.persons)
           }).toString();
 
-          window.location.href = `${CHECKOUT_URL}?${qs}`;
+          window.location.href = `${CART_URL}?${qs}`;
           return;
         }
       } catch (err) {
         console.warn('Add to cart via AJAX failed:', err);
       }
 
-      // fallback redirect (if AJAX blocked)
+      // fallback redirect to cart (if AJAX blocked)
       const fallbackQS = new URLSearchParams({
         date: booking.date,
         time: booking.time,
@@ -1491,7 +1444,7 @@ class BookingWidget {
         persons: String(booking.persons)
       }).toString();
 
-      window.location.href = `${CHECKOUT_URL}?${fallbackQS}`;
+      window.location.href = `${CART_URL}?${fallbackQS}`;
     };
     // ---- REPLACED bookNowHandler END ----
 
@@ -1586,6 +1539,7 @@ class BookingWidget {
     }
   }
 
+  // ===== FEATURE START: Person count controls and pricing sync =====
   updatePersonCount() {
     document.getElementById('bmt-person-count').textContent = this.personCount;
     document.getElementById('bmt-mobile-person-count').textContent = this.personCount;
@@ -1598,6 +1552,7 @@ class BookingWidget {
   }
 
   updateBookingState() {
+    // Per-person pricing is recalculated whenever package/person/date/time changes.
     // Update summary
     document.getElementById('bmt-summary-date').textContent = this.selectedDate || 'Not selected';
     document.getElementById('bmt-summary-time').textContent = this.selectedTime || 'Not selected';
@@ -1651,8 +1606,10 @@ class BookingWidget {
     document.getElementById('bmt-book-now').disabled = !canBook;
     document.getElementById('bmt-mobile-book-now').disabled = !canBook;
   }
+  // ===== FEATURE END: Person count controls and pricing sync =====
 }
 
+// ===== FEATURE END: Event bindings =====
 // Initialize the widget when DOM is ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => new BookingWidget());
