@@ -289,6 +289,22 @@ const TIME_SLOTS = [<br />
     this.updateCalendar();<br />
     this.updatePersonCount();<br />
     this.updateBookingState();<br />
+    this.applyDharamshalaSummaryConfig();<br />
+  }</p>
+
+<p>  applyDharamshalaSummaryConfig() {<br />
+    const summaryHeader = document.querySelector('.bmt-booking-summary .bmt-summary-header');<br />
+    if (summaryHeader && !document.getElementById('bmt-summary-location')) {<br />
+      const row = document.createElement('div');<br />
+      row.className = 'bmt-summary-item';<br />
+      row.innerHTML = '<span class="bmt-summary-label">Location:</span><span class="bmt-summary-value" id="bmt-summary-location">Dharamshala</span>';<br />
+      summaryHeader.insertAdjacentElement('afterend', row);<br />
+    }<br />
+
+    const promoSection = document.querySelector('.bmt-promo-section');<br />
+    if (promoSection) {<br />
+      promoSection.remove();<br />
+    }<br />
   }</p>
 <p>  getStyles() {<br />
     return `<br />
@@ -1131,10 +1147,6 @@ const TIME_SLOTS = [<br />
 <div class="bmt-booking-summary">
 <div class="bmt-summary-header">Booking Summary</div>
 <div class="bmt-summary-item">
-            <span class="bmt-summary-label">Location:</span><br />
-            <span class="bmt-summary-value" id="bmt-summary-location">Dharamshala</span>
-          </div>
-<div class="bmt-summary-item">
             <span class="bmt-summary-label">Date:</span><br />
             <span class="bmt-summary-value" id="bmt-summary-date">Not selected</span>
           </div>
@@ -1164,8 +1176,11 @@ const TIME_SLOTS = [<br />
             <small>Inclusive of 5% IGST, GoPro Video & Insurance</small>
           </div>
 <div class="bmt-promo-section">
-            <small>Promo codes are not available for this location.</small>
-          </div>
+<div class="bmt-promo-input">
+              <input type="text" placeholder="Promo code" id="bmt-promo-input" aria-label="Enter promo code"><br />
+              <button class="bmt-apply-btn" id="bmt-apply-promo">Apply</button>
+            </div>
+</p></div>
 <p>          <button class="bmt-book-now-btn" id="bmt-book-now" disabled>Book Now</button></p>
 <div class="bmt-secure-payment">
             <span class="lock-icon">🔒</span><br />
