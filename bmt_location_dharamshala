@@ -230,7 +230,7 @@
 <div class="bmt-app" id="bmt-booking"></div>
 <p><script><br />
 // CHANGE THIS: Configure your checkout URL<br />
-const CHECKOUT_URL = '/checkout/';</p>
+const CART_URL = '/cart/';</p>
 <p>// Brand colors<br />
 const BRAND_PRIMARY = '#7445f7';<br />
 const BRAND_HOVER = '#5f37d9';</p>
@@ -1131,6 +1131,10 @@ const TIME_SLOTS = [<br />
 <div class="bmt-booking-summary">
 <div class="bmt-summary-header">Booking Summary</div>
 <div class="bmt-summary-item">
+            <span class="bmt-summary-label">Location:</span><br />
+            <span class="bmt-summary-value" id="bmt-summary-location">Dharamshala</span>
+          </div>
+<div class="bmt-summary-item">
             <span class="bmt-summary-label">Date:</span><br />
             <span class="bmt-summary-value" id="bmt-summary-date">Not selected</span>
           </div>
@@ -1160,11 +1164,8 @@ const TIME_SLOTS = [<br />
             <small>Inclusive of 5% IGST, GoPro Video & Insurance</small>
           </div>
 <div class="bmt-promo-section">
-<div class="bmt-promo-input">
-              <input type="text" placeholder="Promo code" id="bmt-promo-input" aria-label="Enter promo code"><br />
-              <button class="bmt-apply-btn" id="bmt-apply-promo">Apply</button>
-            </div>
-</p></div>
+            <small>Promo codes are not available for this location.</small>
+          </div>
 <p>          <button class="bmt-book-now-btn" id="bmt-book-now" disabled>Book Now</button></p>
 <div class="bmt-secure-payment">
             <span class="lock-icon">🔒</span><br />
@@ -1241,15 +1242,6 @@ const TIME_SLOTS = [<br />
         }<br />
       }<br />
     });</p>
-<p>    // Promo code<br />
-    document.getElementById('bmt-apply-promo').addEventListener('click', () => {<br />
-      const promoInput = document.getElementById('bmt-promo-input');<br />
-      this.promoCode = promoInput.value;<br />
-      // Mock promo code application<br />
-      if (this.promoCode) {<br />
-        alert('Promo code applied! (This is a demo)');<br />
-      }<br />
-    });</p>
 <p>    // Person selector<br />
     document.getElementById('bmt-decrease-persons').addEventListener('click', () => {<br />
       if (this.personCount > 1) {<br />
@@ -1320,7 +1312,7 @@ const TIME_SLOTS = [<br />
             price: String(booking.total_price),<br />
             persons: String(booking.persons)<br />
           }).toString();</p>
-<p>          window.location.href = `${CHECKOUT_URL}?${qs}`;<br />
+<p>          window.location.href = `${CART_URL}?${qs}`;<br />
           return;<br />
         }<br />
       } catch (err) {<br />
@@ -1334,7 +1326,7 @@ const TIME_SLOTS = [<br />
         price: String(booking.total_price),<br />
         persons: String(booking.persons)<br />
       }).toString();</p>
-<p>      window.location.href = `${CHECKOUT_URL}?${fallbackQS}`;<br />
+<p>      window.location.href = `${CART_URL}?${fallbackQS}`;<br />
     };<br />
     // ---- REPLACED bookNowHandler END ----</p>
 <p>    document.getElementById('bmt-book-now').addEventListener('click', bookNowHandler);<br />
