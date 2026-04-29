@@ -230,7 +230,7 @@
 <div class="bmt-app" id="bmt-booking"></div>
 <p><script><br />
 // CHANGE THIS: Configure your checkout URL<br />
-const CHECKOUT_URL = '/checkout/';</p>
+const CART_URL = '/cart/';</p>
 <p>// Brand colors<br />
 const BRAND_PRIMARY = '#7445f7';<br />
 const BRAND_HOVER = '#5f37d9';</p>
@@ -273,7 +273,6 @@ const TIME_SLOTS = [<br />
     this.selectedTime = null;<br />
     this.selectedPackage = null;<br />
     this.currentMonth = new Date();<br />
-    this.promoCode = '';<br />
     this.personCount = 1;</p>
 <p>    this.init();<br />
   }</p>
@@ -665,39 +664,6 @@ const TIME_SLOTS = [<br />
         color: #666;<br />
         font-size: 11px;<br />
         line-height: 1.3;<br />
-      }</p>
-<p>      .bmt-promo-section {<br />
-        margin: 20px 0;<br />
-        padding-top: 20px;<br />
-        border-top: 1px solid rgba(17,17,17,0.08);<br />
-      }</p>
-<p>      .bmt-promo-input {<br />
-        display: flex;<br />
-        gap: 8px;<br />
-        margin-bottom: 12px;<br />
-      }</p>
-<p>      .bmt-promo-input input {<br />
-        flex: 1;<br />
-        padding: 8px 12px;<br />
-        border: 1px solid rgba(17,17,17,0.12);<br />
-        border-radius: 6px;<br />
-        font-size: 14px;<br />
-      }</p>
-<p>      .bmt-promo-input input:focus {<br />
-        outline: 2px solid ${BRAND_PRIMARY};<br />
-        outline-offset: 2px;<br />
-        border-color: ${BRAND_PRIMARY};<br />
-      }</p>
-<p>      .bmt-apply-btn {<br />
-        background: white;<br />
-        border: 1px solid rgba(17,17,17,0.12);<br />
-        border-radius: 6px;<br />
-        padding: 8px 16px;<br />
-        cursor: pointer;<br />
-        font-size: 14px;<br />
-      }</p>
-<p>      .bmt-apply-btn:hover {<br />
-        background: #f5f5f5;<br />
       }</p>
 <p>      .bmt-book-now-btn {<br />
         width: 100%;<br />
@@ -1131,6 +1097,10 @@ const TIME_SLOTS = [<br />
 <div class="bmt-booking-summary">
 <div class="bmt-summary-header">Booking Summary</div>
 <div class="bmt-summary-item">
+            <span class="bmt-summary-label">Location:</span><br />
+            <span class="bmt-summary-value" id="bmt-summary-location">Dharamshala</span>
+          </div>
+<div class="bmt-summary-item">
             <span class="bmt-summary-label">Date:</span><br />
             <span class="bmt-summary-value" id="bmt-summary-date">Not selected</span>
           </div>
@@ -1159,13 +1129,8 @@ const TIME_SLOTS = [<br />
 <div class="bmt-price-details">
             <small>Inclusive of 5% IGST, GoPro Video & Insurance</small>
           </div>
-<div class="bmt-promo-section">
-<div class="bmt-promo-input">
-              <input type="text" placeholder="Promo code" id="bmt-promo-input" aria-label="Enter promo code"><br />
-              <button class="bmt-apply-btn" id="bmt-apply-promo">Apply</button>
-            </div>
-</p></div>
-<p>          <button class="bmt-book-now-btn" id="bmt-book-now" disabled>Book Now</button></p>
+
+<p>          <button class="bmt-book-now-btn" id="bmt-book-now" disabled>Book Mow</button></p>
 <div class="bmt-secure-payment">
             <span class="lock-icon">🔒</span><br />
             <span>Secure Payment • SSL Protected</span>
@@ -1194,7 +1159,7 @@ const TIME_SLOTS = [<br />
 <div class="bmt-mobile-price-details">
           <small>Inclusive of 5% IGST, GoPro Video & Insurance</small>
         </div>
-<p>        <button class="bmt-book-now-btn" id="bmt-mobile-book-now" disabled>Book Now</button></p>
+<p>        <button class="bmt-book-now-btn" id="bmt-mobile-book-now" disabled>Book Mow</button></p>
 <div class="bmt-mobile-secure-payment">
           <span class="lock-icon">🔒</span><br />
           <span>Secure Payment • SSL Protected</span>
@@ -1239,15 +1204,6 @@ const TIME_SLOTS = [<br />
         if (packageCard) {<br />
           packageCard.click();<br />
         }<br />
-      }<br />
-    });</p>
-<p>    // Promo code<br />
-    document.getElementById('bmt-apply-promo').addEventListener('click', () => {<br />
-      const promoInput = document.getElementById('bmt-promo-input');<br />
-      this.promoCode = promoInput.value;<br />
-      // Mock promo code application<br />
-      if (this.promoCode) {<br />
-        alert('Promo code applied! (This is a demo)');<br />
       }<br />
     });</p>
 <p>    // Person selector<br />
@@ -1320,7 +1276,7 @@ const TIME_SLOTS = [<br />
             price: String(booking.total_price),<br />
             persons: String(booking.persons)<br />
           }).toString();</p>
-<p>          window.location.href = `${CHECKOUT_URL}?${qs}`;<br />
+<p>          window.location.href = `${CART_URL}?${qs}`;<br />
           return;<br />
         }<br />
       } catch (err) {<br />
@@ -1334,7 +1290,7 @@ const TIME_SLOTS = [<br />
         price: String(booking.total_price),<br />
         persons: String(booking.persons)<br />
       }).toString();</p>
-<p>      window.location.href = `${CHECKOUT_URL}?${fallbackQS}`;<br />
+<p>      window.location.href = `${CART_URL}?${fallbackQS}`;<br />
     };<br />
     // ---- REPLACED bookNowHandler END ----</p>
 <p>    document.getElementById('bmt-book-now').addEventListener('click', bookNowHandler);<br />
